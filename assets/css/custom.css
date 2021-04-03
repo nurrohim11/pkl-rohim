@@ -1,0 +1,70 @@
+.form-group.form-qty {
+    margin-bottom: auto;
+}
+p.subtotal {
+    margin-bottom: 0rem;
+}
+
+.required {
+    color: red;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+    .kt-notification.kt-margin-t-10.kt-margin-b-10.kt-scroll {
+        max-height: 100px;
+    } 
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+    .kt-notification.kt-margin-t-10.kt-margin-b-10.kt-scroll {
+        max-height: 150px;
+    } 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    .kt-notification.kt-margin-t-10.kt-margin-b-10.kt-scroll {
+        max-height: 250px;
+    } 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+    .kt-notification.kt-margin-t-10.kt-margin-b-10.kt-scroll {
+        max-height: 250px;
+    } 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    .kt-notification.kt-margin-t-10.kt-margin-b-10.kt-scroll {
+        max-height: 300px;
+    } 
+}
+
+input.form-control.custom-input {
+    background: #000;
+    color: #d6d7e1;
+    padding: 0px 10px;
+    font-size: 15px;
+}
+
+@media (min-width: 1024px){
+    .modal-dialog.modal-lg.modal-selesai {
+        max-width: 1000px;
+    }
+    .modal-dialog.modal-md.modal-selesai {
+        max-width: 800px;
+    }
+}
+.modal-custom {
+    overflow: auto !important;
+}
+
+@media print{
+    .modal{width:100%}
+    .modal-dialog{max-width:100%;margin:0;align-items: inherit;}
+}

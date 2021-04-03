@@ -1,0 +1,29 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-05-20 00:18:22 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-05-20 01:16:37 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-05-20 01:16:38 --> 404 Page Not Found: Well-known/assetlinks.json
+ERROR - 2020-05-20 05:25:54 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-05-20 05:33:19 --> 404 Page Not Found: Adminer/adminer.php
+ERROR - 2020-05-20 05:33:20 --> 404 Page Not Found: Adminer/adminer.php
+ERROR - 2020-05-20 07:05:37 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-05-20 07:06:17 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-05-20 07:06:17 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-05-20 07:06:17 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-05-20 08:58:30 --> 404 Page Not Found: Vendor/phpunit
+ERROR - 2020-05-20 08:58:35 --> 404 Page Not Found: Api/vendor
+ERROR - 2020-05-20 08:58:46 --> 404 Page Not Found: Laravel/vendor
+ERROR - 2020-05-20 08:58:52 --> 404 Page Not Found: Modules/autoupgrade
+ERROR - 2020-05-20 08:58:58 --> 404 Page Not Found: Sites/all
+ERROR - 2020-05-20 08:59:02 --> 404 Page Not Found: Test/vendor
+ERROR - 2020-05-20 08:59:06 --> 404 Page Not Found: Admin/vendor
+ERROR - 2020-05-20 08:59:10 --> 404 Page Not Found: Modules/ps_facetedsearch
+ERROR - 2020-05-20 08:59:14 --> 404 Page Not Found: Blog/vendor
+ERROR - 2020-05-20 08:59:17 --> 404 Page Not Found: System/vendor
+ERROR - 2020-05-20 08:59:21 --> 404 Page Not Found: Modules/gamification
+ERROR - 2020-05-20 08:59:25 --> 404 Page Not Found: Shop/vendor
+ERROR - 2020-05-20 08:59:29 --> 404 Page Not Found: Wp-content/plugins
+ERROR - 2020-05-20 09:21:25 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-05-20 13:44:24 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-05-20 17:46:25 --> 404 Page Not Found: Wp-loginphp/index
+ERROR - 2020-05-20 18:04:47 --> 404 Page Not Found: Robotstxt/index

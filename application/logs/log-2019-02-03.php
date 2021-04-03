@@ -1,0 +1,30 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-02-03 11:20:16 --> 404 Page Not Found: Assets/vendors
+ERROR - 2019-02-03 11:20:16 --> 404 Page Not Found: Assets/vendors
+ERROR - 2019-02-03 11:21:01 --> 404 Page Not Found: Assets/vendors
+ERROR - 2019-02-03 11:21:01 --> 404 Page Not Found: Assets/vendors
+ERROR - 2019-02-03 11:21:02 --> 404 Page Not Found: Assets/plugins
+ERROR - 2019-02-03 11:21:02 --> 404 Page Not Found: Assets/plugins
+ERROR - 2019-02-03 11:21:18 --> 404 Page Not Found: Assets/vendors
+ERROR - 2019-02-03 11:21:19 --> 404 Page Not Found: Assets/plugins
+ERROR - 2019-02-03 11:21:19 --> 404 Page Not Found: Assets/plugins
+ERROR - 2019-02-03 11:21:19 --> 404 Page Not Found: Assets/vendors
+ERROR - 2019-02-03 11:21:48 --> 404 Page Not Found: Assets/vendors
+ERROR - 2019-02-03 11:21:48 --> 404 Page Not Found: Assets/vendors
+ERROR - 2019-02-03 11:21:49 --> 404 Page Not Found: Assets/plugins
+ERROR - 2019-02-03 11:21:49 --> 404 Page Not Found: Assets/plugins
+ERROR - 2019-02-03 11:22:26 --> 404 Page Not Found: Assets/vendors
+ERROR - 2019-02-03 11:22:27 --> 404 Page Not Found: Assets/plugins
+ERROR - 2019-02-03 11:22:27 --> 404 Page Not Found: Assets/plugins
+ERROR - 2019-02-03 11:22:27 --> 404 Page Not Found: Assets/vendors
+ERROR - 2019-02-03 11:25:11 --> 404 Page Not Found: Assets/vendors
+ERROR - 2019-02-03 11:25:11 --> 404 Page Not Found: Assets/plugins
+ERROR - 2019-02-03 11:25:11 --> 404 Page Not Found: Assets/plugins
+ERROR - 2019-02-03 11:25:11 --> 404 Page Not Found: Assets/vendors
+ERROR - 2019-02-03 11:25:14 --> 404 Page Not Found: Assets/vendors
+ERROR - 2019-02-03 11:25:14 --> 404 Page Not Found: Assets/vendors
+ERROR - 2019-02-03 11:25:14 --> 404 Page Not Found: Assets/plugins
+ERROR - 2019-02-03 11:25:14 --> 404 Page Not Found: Assets/plugins
+ERROR - 2019-02-03 11:26:17 --> 404 Page Not Found: Assets/vendors
+ERROR - 2019-02-03 11:26:17 --> 404 Page Not Found: Assets/vendors

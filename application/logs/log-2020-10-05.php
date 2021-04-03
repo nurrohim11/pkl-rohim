@@ -1,0 +1,106 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-10-05 06:13:43 --> 404 Page Not Found: Assets/plugins
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-10-05 06:13:43 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:13:54 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:13:54 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:14:55 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:14:55 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:15:47 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:15:47 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:18:31 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:18:31 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:18:47 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:18:48 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:19:17 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:19:18 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:22:59 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:23:00 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:24:37 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:24:38 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:24:58 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:24:59 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:25:16 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:25:17 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:28:49 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:28:50 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:30:11 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:30:11 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:30:46 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:30:46 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:32:32 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 06:32:33 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:11:25 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:11:25 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:11:48 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:11:48 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:12:09 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:12:09 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:12:26 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:12:26 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:12:47 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:12:48 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:13:44 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:13:44 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:16:37 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:16:37 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:16:41 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:16:41 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:16:50 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:16:51 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:17:07 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:17:08 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:46:12 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:46:13 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:46:33 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:46:33 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:54:25 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 07:54:25 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 08:16:15 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 08:16:15 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 08:16:54 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 08:16:54 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 08:28:08 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 08:28:08 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 08:28:33 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 08:28:33 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 08:30:54 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 08:30:54 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 08:31:33 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 08:31:33 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 08:33:58 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 08:33:58 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 08:35:56 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 08:35:57 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 08:36:40 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 08:36:41 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:04:27 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:04:55 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:05:06 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:05:10 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:05:11 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:06:42 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:06:42 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:07:13 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:07:14 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:07:57 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:07:58 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:09:14 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:09:15 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:25:13 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:25:14 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:25:16 --> Query error: Table 'project_konter.tb_sn' doesn't exist - Invalid query: 
+            SELECT COUNT(*) AS jumlah
+            FROM tb_sn a
+            WHERE a.status = 0
+             
+ERROR - 2020-10-05 11:25:42 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:25:43 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:30:32 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:30:32 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:43:47 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:43:47 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:44:15 --> 404 Page Not Found: Assets/plugins
+ERROR - 2020-10-05 11:44:15 --> 404 Page Not Found: Assets/plugins

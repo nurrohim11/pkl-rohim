@@ -1,0 +1,30 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-06-11 05:37:55 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-06-11 09:42:53 --> 404 Page Not Found: Wp-includes/wlwmanifest.xml
+ERROR - 2020-06-11 09:42:54 --> 404 Page Not Found: Xmlrpcphp/index
+ERROR - 2020-06-11 09:42:54 --> 404 Page Not Found: Blog/wp-includes
+ERROR - 2020-06-11 09:42:55 --> 404 Page Not Found: Web/wp-includes
+ERROR - 2020-06-11 09:42:55 --> 404 Page Not Found: Wordpress/wp-includes
+ERROR - 2020-06-11 09:42:55 --> 404 Page Not Found: Website/wp-includes
+ERROR - 2020-06-11 09:42:55 --> 404 Page Not Found: Wp/wp-includes
+ERROR - 2020-06-11 09:42:56 --> 404 Page Not Found: News/wp-includes
+ERROR - 2020-06-11 09:42:56 --> 404 Page Not Found: 2018/wp-includes
+ERROR - 2020-06-11 09:42:56 --> 404 Page Not Found: 2019/wp-includes
+ERROR - 2020-06-11 09:42:57 --> 404 Page Not Found: Shop/wp-includes
+ERROR - 2020-06-11 09:42:57 --> 404 Page Not Found: Wp1/wp-includes
+ERROR - 2020-06-11 09:42:57 --> 404 Page Not Found: Test/wp-includes
+ERROR - 2020-06-11 09:42:57 --> 404 Page Not Found: Media/wp-includes
+ERROR - 2020-06-11 09:42:58 --> 404 Page Not Found: Wp2/wp-includes
+ERROR - 2020-06-11 09:42:58 --> 404 Page Not Found: Site/wp-includes
+ERROR - 2020-06-11 09:42:58 --> 404 Page Not Found: Cms/wp-includes
+ERROR - 2020-06-11 09:42:58 --> 404 Page Not Found: Sito/wp-includes
+ERROR - 2020-06-11 12:11:33 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-06-11 14:54:54 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-06-11 16:49:37 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-06-11 16:52:10 --> 404 Page Not Found: Test/wp-login.php
+ERROR - 2020-06-11 17:12:01 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-06-11 17:59:25 --> 404 Page Not Found: Well-known/assetlinks.json
+ERROR - 2020-06-11 19:18:09 --> 404 Page Not Found: Wordpress/wp-login.php
+ERROR - 2020-06-11 21:45:24 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-06-11 22:27:43 --> 404 Page Not Found: Wp/wp-login.php

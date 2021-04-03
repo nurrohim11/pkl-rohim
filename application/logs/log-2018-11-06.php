@@ -1,0 +1,29 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2018-11-06 10:51:28 --> 404 Page Not Found: Gaji/index
+ERROR - 2018-11-06 10:53:11 --> 404 Page Not Found: Assets/plugins
+ERROR - 2018-11-06 10:53:11 --> 404 Page Not Found: Assets/vendors
+ERROR - 2018-11-06 10:53:11 --> 404 Page Not Found: Assets/vendors
+ERROR - 2018-11-06 10:53:32 --> 404 Page Not Found: Assets/vendors
+ERROR - 2018-11-06 10:53:32 --> 404 Page Not Found: Assets/vendors
+ERROR - 2018-11-06 10:59:21 --> 404 Page Not Found: Assets/vendors
+ERROR - 2018-11-06 10:59:21 --> 404 Page Not Found: Assets/vendors
+ERROR - 2018-11-06 11:00:13 --> 404 Page Not Found: Assets/demo
+ERROR - 2018-11-06 11:00:25 --> 404 Page Not Found: Assets/vendors
+ERROR - 2018-11-06 11:00:25 --> 404 Page Not Found: Assets/vendors
+ERROR - 2018-11-06 11:00:26 --> 404 Page Not Found: Assets/vendors
+ERROR - 2018-11-06 11:00:26 --> 404 Page Not Found: Assets/vendors
+ERROR - 2018-11-06 11:00:29 --> 404 Page Not Found: Assets/vendors
+ERROR - 2018-11-06 11:00:29 --> 404 Page Not Found: Assets/vendors
+ERROR - 2018-11-06 11:00:29 --> 404 Page Not Found: Assets/demo
+ERROR - 2018-11-06 11:00:38 --> 404 Page Not Found: Assets/demo
+ERROR - 2018-11-06 11:01:14 --> 404 Page Not Found: Assets/vendors
+ERROR - 2018-11-06 11:01:14 --> 404 Page Not Found: Assets/vendors
+ERROR - 2018-11-06 11:01:15 --> 404 Page Not Found: Assets/demo
+ERROR - 2018-11-06 11:01:21 --> 404 Page Not Found: Assets/demo
+ERROR - 2018-11-06 11:02:07 --> 404 Page Not Found: Assets/vendors
+ERROR - 2018-11-06 11:02:07 --> 404 Page Not Found: Assets/vendors
+ERROR - 2018-11-06 11:02:07 --> 404 Page Not Found: Assets/app
+ERROR - 2018-11-06 11:02:13 --> 404 Page Not Found: Assets/app
+ERROR - 2018-11-06 11:03:07 --> 404 Page Not Found: Assets/vendors
+ERROR - 2018-11-06 11:03:07 --> 404 Page Not Found: Assets/vendors
