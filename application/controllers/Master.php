@@ -214,4 +214,40 @@ class Master extends CI_Controller {
         }
     }
 
+    function ajax_pelanggan($member='',$search='')
+    {
+        if ($this->input->is_ajax_request()) {
+
+            $member = ($member == '' || $member == 'null' || $member == 'undefined') ? $this->session->userdata('uid') : $member;
+
+            $condition ='';
+            if($search != '' && $search != 'undefined'){
+                $condition .= ' AND a.nama like "%'.$search.'%"';
+            }
+
+            $member = $this->db->query("
+                SELECT a.id ,a.kode_pelanggan ,a.nama ,a.no_hp,b.kode_template  
+                from tb_pelanggan a
+                join ms_template b
+                    on a.kode_template = b.kode_template 
+                where  b.uid='$member'  and b.status = 1
+                $condition")->result();
+
+            $result = [];
+
+            if ($member) {
+                foreach ($member as $row => $val) {
+                    $result[$row] = array(
+                        'id' => $val->kode_pelanggan,
+                        'text' => $val->nama
+                    );
+                }
+            }
+
+            echo json_encode($result);
+        }else{
+            error_ajax();
+        }
+    }
+
 }

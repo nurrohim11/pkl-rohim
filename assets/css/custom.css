@@ -68,3 +68,18 @@ input.form-control.custom-input {
     .modal{width:100%}
     .modal-dialog{max-width:100%;margin:0;align-items: inherit;}
 }
+
+@media (min-width: 768px){
+    .img_wa {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 70px;
+    }
+}
+
+@media (max-width: 768px){
+    .img_wa {
+        width: 100%;
+    }
+}

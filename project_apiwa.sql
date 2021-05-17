@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Waktu pembuatan: 03 Apr 2021 pada 15.38
+-- Waktu pembuatan: 17 Bulan Mei 2021 pada 14.26
 -- Versi server: 10.1.38-MariaDB
 -- Versi PHP: 7.3.2
 
@@ -53,7 +53,7 @@ INSERT INTO `counter` (`id`, `code`, `counter`, `bulan`, `tahun`) VALUES
 CREATE TABLE `log_trx_wa` (
   `id` int(11) NOT NULL,
   `uid` varchar(100) DEFAULT NULL,
-  `wa` varchar(20) DEFAULT NULL,
+  `nomor` varchar(20) DEFAULT NULL,
   `message` text,
   `response` text,
   `timestamp` timestamp NULL DEFAULT CURRENT_TIMESTAMP
@@ -195,6 +195,7 @@ INSERT INTO `tb_menu` (`id`, `label`, `url`, `fungsi`, `method`, `icon`, `urutan
 CREATE TABLE `tb_message` (
   `id` int(11) NOT NULL,
   `uid` varchar(50) DEFAULT NULL,
+  `kode_pelanggan` varchar(50) DEFAULT NULL,
   `nomor` varchar(50) DEFAULT NULL,
   `message` text,
   `flag` int(1) DEFAULT '1' COMMENT '1 = member / 2 = user',
@@ -267,8 +268,8 @@ CREATE TABLE `tb_user` (
 --
 
 INSERT INTO `tb_user` (`id`, `uid`, `nama`, `username`, `password`, `key`, `no_hp`, `email`, `insert_at`, `user_insert`, `update_at`, `user_update`, `session`, `post_login`, `last_login`, `last_ip`, `level`, `status`) VALUES
-(1, 'WPypYpvaYyGL0orWsb9CCOj9TPPSPx', 'admin', 'admin', '1ªà„IÖ¯7F]	¢ºªG', 'ohkW', NULL, NULL, NULL, NULL, NULL, NULL, '160d726f740077ae1b0d90014056c7c9', NULL, '2021-03-30', '::1', 1, 1),
-(4, '9sE7J0INXwRAOe6y0dCk54kAf0udhj', 'Muhammad Kenza Farqo', 'kenza', 'ÕëUå7O‚-ñ‘O°Û', 'pmF6', '02093284', NULL, '2021-03-29 09:31:20', 'admin', '2021-03-29 09:32:45', 'admin', '31837b22743ea2a32b3b0a49a35c85c9', NULL, '2021-03-30', '::1', 2, 1);
+(1, 'WPypYpvaYyGL0orWsb9CCOj9TPPSPx', 'admin', 'admin', '1ªà„IÖ¯7F]	¢ºªG', 'ohkW', NULL, NULL, NULL, NULL, NULL, NULL, 'af0b1fb377f046de5f1cee53c38510c4', NULL, '2021-05-17', '::1', 1, 1),
+(4, '9sE7J0INXwRAOe6y0dCk54kAf0udhj', 'Muhammad Kenza Farqo', 'kenza', 'ÕëUå7O‚-ñ‘O°Û', 'pmF6', '02093284', NULL, '2021-03-29 09:31:20', 'admin', '2021-03-29 09:32:45', 'admin', '486ca52f3a6fb2ce7068f2d2f727c828', NULL, '2021-05-17', '::1', 2, 1);
 
 -- --------------------------------------------------------
 

@@ -66,15 +66,15 @@
 
 					<div class="form-group">
 						<label for="nama">Nama <span class="required">*</span></label>
-						<input type="text" name="nama" class="form-control" id="nama">
+						<input type="text" placeholder="Masukkan Nama" name="nama" class="form-control" id="nama">
 					</div>
 					<div class="form-group">
 						<label for="no_hp">No. HP <span class="required">*</span></label>
-						<input type="text" name="no_hp" class="form-control num-int" id="no_hp">
+						<input type="text" name="no_hp" placeholder="ex : 08xxxxxxxxx" class="form-control num-int" id="no_hp">
 					</div>
 					<div class="form-group">
 						<label for="alamat">Alamat <span class="required">*</span></label>
-						<textarea class="form-control" id="alamat" name="alamat" rows="4"></textarea>
+						<textarea class="form-control" id="alamat" placeholder="Masukkan Alamat" name="alamat" rows="4"></textarea>
 					</div>
 				</div>
 				<div class="modal-footer">

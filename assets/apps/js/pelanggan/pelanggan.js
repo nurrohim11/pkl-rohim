@@ -45,7 +45,7 @@ const clear_form=()=>{
 }
 
 $("#member").val(null).trigger("change");
-ajax_select2(base_url+'master/ajax_member', '#member', 'Pilih member');
+ajax_select2(base_url+'master/ajax_member/'+null, '#member', 'Pilih member');
 
 
 $("#template").val(null).trigger("change");
@@ -54,7 +54,6 @@ ajax_select2(base_url+'master/ajax_template', '#template', 'Pilih template');
 $('#member').change(function(){
 	ajax_select2(base_url+'master/ajax_template/'+$(this).val(), '#template', 'Pilih template');
 })
-
 
 $('#add').click(()=>{
 	clear_form();
