@@ -26,13 +26,89 @@ class Kirim extends CI_Controller {
 			$metode_pengiriman = $this->input->post('metode_pengiriman');
 			$template = $this->input->post('template');
 			$pelanggan = $this->input->post('pelanggan');
+			$imageUrl = '';
+
+	        $config['upload_path'] = './assets/uploads/wa/';
+	        $config['allowed_types'] = 'jpeg|jpg|png';
+	        $config['max_size'] = 4000;
+	        $config['max_width'] = 6000;
+	        $config['max_height'] = 6000;
+            $config['file_name'] =date('YmdHisu');
+
+	        $this->load->library('upload', $config);
+
+	        if ($this->upload->do_upload('image')) {
+            	$file = $this->upload->data();
+            	$imageUrl = 'assets/uploads/wa/'.$file['file_name'];
+	        }
 
 			if($metode_pengiriman == 'plg'){
 
+				$this->db->trans_begin();
+
+				$data = array();
+				foreach($pelanggan as $row){
+
+					$plg = $this->db->get_where('tb_pelanggan',['kode_pelanggan' => $row])->row();
+
+					$data[] = array(
+						'uid' => $this->session->userdata('uid'),
+						'kode_pelanggan' => $row,
+						'nomor' => $plg->no_hp,
+						'message' => $message,
+						'image' => $imageUrl,
+						'insert_at' => now(),
+						'user_insert' => $this->session->userdata('uid')
+					); 
+				}
+
+				$this->db->insert_batch('tb_message',$data);
+
+				if ($this->db->trans_status()){
+				    $this->db->trans_commit();
+				    $status = true;
+				    $message = "Pesan berhasil di kirim";
+				}
+				else{
+				    $this->db->trans_rollback();
+				    $status = false;
+				    $message = "Pesan gagal di kirim";
+				}
+
 			}
 			else{
-				
+				$query = $this->db->get_where('tb_pelanggan',['kode_template' => $template,'status' => 1])->result();
+
+				$this->db->trans_begin();
+
+				$data = array();
+				foreach($query as $row){
+
+					$data[] = array(
+						'uid' => $this->session->userdata('uid'),
+						'kode_pelanggan' => $row->kode_pelanggan,
+						'nomor' => $row->no_hp,
+						'message' => $message,
+						'image' => $imageUrl,
+						'insert_at' => now(),
+						'user_insert' => $this->session->userdata('uid')
+					); 
+				}
+
+				$this->db->insert_batch('tb_message',$data);
+
+				if ($this->db->trans_status()){
+				    $this->db->trans_commit();
+				    $status = true;
+				    $message = "Pesan berhasil di kirim";
+				}
+				else{
+				    $this->db->trans_rollback();
+				    $status = false;
+				    $message = "Pesan gagal di kirim";
+				}
 			}
+			echo json_encode(['status' => $status,'message' => $message]);
 		}
 		else{
 			show_404();

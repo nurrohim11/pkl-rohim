@@ -13,7 +13,7 @@
 							<div class="form-group">
 								<label>Gambar</label></br>
 								<img src="<?php echo base_url() ?>assets/apps/img/placeholder.png" style="width: 160px; border-radius: 10px" id="preview" class="img-responsive">
-								<input type="file" class="form-control" multiple="false" accept="image/*" id="image" onchange="preview()" style="margin-top: 6px">
+								<input type="file" class="form-control" multiple="false" accept=".jpg, .jpeg, .png" id="image" name="image" onchange="preview()" style="margin-top: 6px">
 								<span class="form-text required">* Pilih jika ingin mengirim gambar</span>
 							</div>
 							<div class="form-group">

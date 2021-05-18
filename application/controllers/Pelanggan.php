@@ -54,6 +54,8 @@ class Pelanggan extends CI_Controller {
                 'nama' => $nama,
 	        	'no_hp' => $no_hp,
                 'alamat' => $alamat,
+                $user=> $this->session->userdata('uid'),
+                $time => now()
 	        );
 
 	        if($kode_template == '' || $nama == '' || $no_hp == '' || $alamat == ''){
