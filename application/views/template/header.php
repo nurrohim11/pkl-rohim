@@ -46,7 +46,7 @@
 		<div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed ">
 			<div class="kt-header-mobile__logo">
 				<a href="<?php echo base_url() ?>">
-					<img alt="Logo" src="<?php echo base_url() ?>assets/apps/img/ajs_logo.png" style="width: 20%" />
+					<img alt="Logo" src="<?php echo base_url() ?>assets/apps/img/ajs_logo.png" style="width: 30%" />
 				</a>
 			</div>
 			<div class="kt-header-mobile__toolbar">
@@ -67,7 +67,7 @@
 					<div class="kt-aside__brand kt-grid__item " id="kt_aside_brand">
 						<div class="kt-aside__brand-logo">
 							<a href="<?php echo base_url() ?>">
-								<img alt="Logo" src="<?php echo base_url() ?>assets/apps/img/ajs_logo.png" style="width: 80%">
+								<img alt="Logo" src="<?php echo base_url() ?>assets/apps/img/ajs_logo.png" style="width: 40%">
 							</a>
 						</div>
 						<div class="kt-aside__brand-tools">

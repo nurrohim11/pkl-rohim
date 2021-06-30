@@ -96,4 +96,87 @@ class Master_model extends CI_Model
         return isset($query->jumlah) ? $query->jumlah : 0;
     }
 
+    function json_riwayat_pesan($draw = 1, $start = 0, $length = 0, $search = '', $column = '', $dir = '',$tgl='')
+    {
+        $start = $this->db->escape_str($start);
+        $length = $this->db->escape_str($length);
+        $column = $this->db->escape_str($column);
+        $dir = $this->db->escape_str($dir);
+        $search = $this->db->escape_str($search);
+        $tgl = $this->db->escape_str($tgl);
+
+        $total_filtered = $this->jumlah_riwayat_pesan($search,$tgl);
+        $data = [];
+        $request = $this->view_riwayat_pesan($start, $length, $search, $column, $dir, $tgl);
+        if (! empty($request)) {
+            $no = $start + 1;
+            foreach ($request as $row) {
+                $data[] = array(
+                    $no++,
+                    $row->kode_pelanggan,
+                    $row->nama,
+                    $row->nomor,
+                    $row->message,
+                    '<button type="button" class="btn btn-info btn-elevate btn-pill btn-sm resend" data-refid="'.$row->id.'"><span class="fa fa-sync"></span></button>'
+                );
+            }
+        }
+
+        return response_datatable($draw, $total_filtered, $data);
+    }
+
+    function view_riwayat_pesan($start = 0, $length = 0, $search = '', $column = '', $dir = '',$tgl='')
+    {
+        $kolom = ['a.nama','a.nomor','a.kode_pelanggan'];
+        $condition = condition($search,$kolom);
+
+        $condition = '';
+        $uid = $this->session->userdata('uid');
+        if($this->session->userdata('level') == 2){
+            $condition .= " AND a.uid ='$uid'";
+        }
+
+        if($tgl != ''){
+            $temp_tgl = explode("-", $tgl);
+            $tgl_awal = convert_tgl($temp_tgl[0]);
+            $tgl_akhir = convert_tgl($temp_tgl[1]); 
+            $condition .= " AND (DATE(a.insert_at) Between '$tgl_awal' and '$tgl_akhir')";
+        }
+
+        $kolom_order = ['0' => 'a.insert_at','1' => 'a.kode_pelanggan','2' => 'b.nama','3'=>'a.nomor','4'=>'a.message'];
+        $order = order($column,$dir,$kolom_order);
+
+        $query = $this->db->query("
+            SELECT a.*,b.nama ,b.alamat 
+            from tb_message a
+            join tb_pelanggan b
+                on a.kode_pelanggan =b.kode_pelanggan
+            where 1=1 $condition
+            $order 
+            LIMIT $start, $length ")->result();
+
+        return $query;
+    }
+
+    function jumlah_riwayat_pesan($search = '',$tgl='')
+    {
+        $kolom = ['a.nama','a.nomor','a.kode_pelanggan'];
+        $condition = condition($search,$kolom);
+
+        $condition = '';
+        $uid = $this->session->userdata('uid');
+        if($this->session->userdata('level') == 2){
+            $condition .= " AND a.uid ='$uid'";
+        }
+
+        $query = $this->db->query("
+            SELECT a.*,b.nama ,b.alamat 
+            from tb_message a
+            join tb_pelanggan b
+                on a.kode_pelanggan =b.kode_pelanggan
+            where 1=1 $condition")->row();
+
+        return isset($query->jumlah) ? $query->jumlah : 0;
+    }
+
 }

@@ -39,7 +39,7 @@ class Kirim extends CI_Controller {
 
 	        if ($this->upload->do_upload('image')) {
             	$file = $this->upload->data();
-            	$imageUrl = 'assets/uploads/wa/'.$file['file_name'];
+            	$imageUrl = base_url().'assets/uploads/wa/'.$file['file_name'];
 	        }
 
 			if($metode_pengiriman == 'plg'){
@@ -63,6 +63,13 @@ class Kirim extends CI_Controller {
 				}
 
 				$this->db->insert_batch('tb_message',$data);
+
+				// if($imageUrl != ''){
+				// 	$this->customcurl->wa_send_media($data);
+				// }
+				// else{
+				// 	$this->customcurl->wa_send_message($data);
+				// }
 
 				if ($this->db->trans_status()){
 				    $this->db->trans_commit();
@@ -97,6 +104,13 @@ class Kirim extends CI_Controller {
 
 				$this->db->insert_batch('tb_message',$data);
 
+				if($imageUrl != ''){
+					$this->customcurl->wa_send_media($data);
+				}
+				else{
+					$this->customcurl->wa_send_message($data);
+				}
+
 				if ($this->db->trans_status()){
 				    $this->db->trans_commit();
 				    $status = true;
@@ -113,6 +127,33 @@ class Kirim extends CI_Controller {
 		else{
 			show_404();
 		}
+	}
+
+	function riwayat()
+	{
+		$header['css'] = datatable('css');
+		$footer['js'] = datatable('js').'<script src="'.base_url().'assets/apps/js/wa.js'.'"></script>';
+		$this->load->view('template/header',$header);
+		$this->load->view('main/riwayat');
+		$this->load->view('template/footer',$footer);
+	}
+
+	function data_riwayat_pesan()
+	{
+        if ($this->input->is_ajax_request()) {
+            $draw = $this->input->get('draw');
+            $start = $this->input->get('start');
+            $length = $this->input->get('length');
+            $search = $this->input->get('search');
+            $order = $this->input->get('order');
+            $tgl = $this->input->get('tgl');
+
+            $json = $this->Master_model->json_riwayat_pesan($draw, $start, $length, $search['value'], $order[0]['column'], $order[0]['dir'],$tgl);
+
+            echo json_encode($json);
+        } else {
+            error_ajax();
+        }
 	}
 
 }

@@ -44,13 +44,13 @@
 					<div class="kt-grid__item kt-grid__item--order-tablet-and-mobile-2 kt-grid kt-grid--hor kt-login__aside" style="background-image: url(./assets/media/bg/bg-2.jpg);">
 						<div class="kt-grid__item">
 							<a href="#" class="kt-login__logo">
-								<img src="<?php echo base_url() ?>assets/apps/img/ajs_logo.png" style="width: 50%">
+								<img src="<?php echo base_url() ?>assets/apps/img/ajs_logo.png" style="width: 30%">
 							</a>
 						</div>
 						<div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--ver">
 							<div class="kt-grid__item kt-grid__item--middle">
 								<h3 class="kt-login__title">Selamat datang di panel api wa</h3>
-								<h4 class="kt-login__subtitle">Supported by wrapper.id</h4>
+								<h4 class="kt-login__subtitle">Supported by rohim.dev</h4>
 							</div>
 						</div>
 					</div>

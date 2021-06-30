@@ -160,10 +160,10 @@ class Master extends CI_Controller {
 
     function ajax_member($search='')
     {
-        if ($this->input->is_ajax_request()) {
+        // if ($this->input->is_ajax_request()) {
 
             $condition ='';
-            if($search != '' && $search != 'undefined'){
+            if($search != '' && $search != 'undefined' && $search != 'null'){
                 $condition .= ' AND nama like "%'.$search.'%"';
             }
 
@@ -180,9 +180,9 @@ class Master extends CI_Controller {
             }
 
             echo json_encode($result);
-        }else{
-            error_ajax();
-        }
+        // }else{
+        //     error_ajax();
+        // }
     }
 
     function ajax_template($member='',$search='')
@@ -216,7 +216,7 @@ class Master extends CI_Controller {
 
     function ajax_pelanggan($member='',$search='')
     {
-        if ($this->input->is_ajax_request()) {
+        // if ($this->input->is_ajax_request()) {
 
             $member = ($member == '' || $member == 'null' || $member == 'undefined') ? $this->session->userdata('uid') : $member;
 
@@ -225,12 +225,13 @@ class Master extends CI_Controller {
                 $condition .= ' AND a.nama like "%'.$search.'%"';
             }
 
+
             $member = $this->db->query("
                 SELECT a.id ,a.kode_pelanggan ,a.nama ,a.no_hp,b.kode_template  
                 from tb_pelanggan a
                 join ms_template b
                     on a.kode_template = b.kode_template 
-                where  b.uid='$member'  and b.status = 1
+                where 1=1 and b.uid='$member'  and b.status = 1 and a.status=1
                 $condition")->result();
 
             $result = [];
@@ -245,9 +246,9 @@ class Master extends CI_Controller {
             }
 
             echo json_encode($result);
-        }else{
-            error_ajax();
-        }
+        // }else{
+        //     error_ajax();
+        // }
     }
 
 }

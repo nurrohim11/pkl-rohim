@@ -4,66 +4,74 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Customcurl
 {
 
-	function wa_send_message($nomor='',$message='')
+	function wa_send_message($plg=[])
 	{
-		$data = array(
-			'number' => $nomor,
-			'message' => $message
-		);
+		if($plg){
+			foreach($plg as $row){
 
-		$curl = curl_init();
+				$data = array(
+					'number' => $row['nomor'],
+					'message' => $row['message']
+				);
 
-		curl_setopt_array($curl, array(
-		  CURLOPT_URL => 'https://wapi-alkhattabi.herokuapp.com/send-message',
-		  CURLOPT_RETURNTRANSFER => true,
-		  CURLOPT_ENCODING => '',
-		  CURLOPT_MAXREDIRS => 10,
-		  CURLOPT_TIMEOUT => 0,
-		  CURLOPT_FOLLOWLOCATION => true,
-		  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-		  CURLOPT_CUSTOMREQUEST => 'POST',
-		  CURLOPT_POSTFIELDS => json_encode($data) ,
-		  CURLOPT_HTTPHEADER => array(
-		    'Content-Type: application/json'
-		  ),
-		));
+				$curl = curl_init();
 
-		$response = curl_exec($curl);
+				curl_setopt_array($curl, array(
+				  CURLOPT_URL => 'https://wapi-alkhattabi.herokuapp.com/send-message',
+				  CURLOPT_RETURNTRANSFER => true,
+				  CURLOPT_ENCODING => '',
+				  CURLOPT_MAXREDIRS => 10,
+				  CURLOPT_TIMEOUT => 0,
+				  CURLOPT_FOLLOWLOCATION => true,
+				  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+				  CURLOPT_CUSTOMREQUEST => 'POST',
+				  CURLOPT_POSTFIELDS => json_encode($data) ,
+				  CURLOPT_HTTPHEADER => array(
+				    'Content-Type: application/json'
+				  ),
+				));
 
-		curl_close($curl);
-		return true;
+				$response = curl_exec($curl);
 
+				curl_close($curl);
+				return true;
+			}	
+		}
 	}
 
-	function wa_send_media($nomor ='',$message='',$image_url)
+	function wa_send_media($plg=[])
 	{
-		$data = array(
-			'number' => $nomor,
-			'message' => $message,
-			'image' => $image_url
-		);
+		if($plg){
+			foreach($plg as $row){
+				$data = array(
+					'number' => $row['nomor'],
+					'message' => $row['message'],
+					'image' => $row['image']
+				);
 
-		$curl = curl_init();
+				$curl = curl_init();
 
-		curl_setopt_array($curl, array(
-		  CURLOPT_URL => 'https://wapi-alkhattabi.herokuapp.com/send_media',
-		  CURLOPT_RETURNTRANSFER => true,
-		  CURLOPT_ENCODING => '',
-		  CURLOPT_MAXREDIRS => 10,
-		  CURLOPT_TIMEOUT => 0,
-		  CURLOPT_FOLLOWLOCATION => true,
-		  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-		  CURLOPT_CUSTOMREQUEST => 'POST',
-		  CURLOPT_POSTFIELDS =>json_encode($data),
-		  CURLOPT_HTTPHEADER => array(
-		    'Content-Type: application/json'
-		  ),
-		));
+				curl_setopt_array($curl, array(
+				  CURLOPT_URL => 'https://wapi-alkhattabi.herokuapp.com/send_media',
+				  CURLOPT_RETURNTRANSFER => true,
+				  CURLOPT_ENCODING => '',
+				  CURLOPT_MAXREDIRS => 10,
+				  CURLOPT_TIMEOUT => 0,
+				  CURLOPT_FOLLOWLOCATION => true,
+				  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+				  CURLOPT_CUSTOMREQUEST => 'POST',
+				  CURLOPT_POSTFIELDS =>json_encode($data),
+				  CURLOPT_HTTPHEADER => array(
+				    'Content-Type: application/json'
+				  ),
+				));
 
-		$response = curl_exec($curl);
+				$response = curl_exec($curl);
 
-		curl_close($curl);
-		return true;
+				curl_close($curl);
+				return true;	
+			}	
+		}
 	}
 
 }
